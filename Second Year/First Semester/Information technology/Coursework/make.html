@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактировать журнал</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+    <script src="logic.js"></script>
+</head>
+<body onload="drawTable()">
+    <div class="header-work">
+        <div class="header-line">
+            <div class="logo">
+                <a href="index.html" class="main"><em class="logo-first">Электронный</em></a>
+                <a href="index.html" class="main2">журнал</a>
+            </div>
+
+            <div class="nav">
+                <a class="nav-item" href="download.html">ЗАГРУЗИТЬ ЖУРНАЛ</a>
+                <a class="nav-item" href="make.html">РЕДАКТИРОВАТЬ ЖУРНАЛ</a>
+                <a class="nav-item" href="stats.html">СТАТИСТИКА</a>
+                <a class="nav-item" href="help.html">ПОМОЩЬ</a>
+                <a class="nav-item" href="about.html">О РАЗРАБОТЧИКЕ</a>
+            </div>
+        </div>
+
+        <div class="header-top">
+            <div class="top-text">
+                Редактировать журнал
+            </div>
+            <hr color="black" size="5" width="1425">
+        </div>
+
+        <div class="inner"> 
+            <div id="table-container"></div>
+            <div id="table-new-row"></div>
+        </div>
+    </div>
+</body>
+</html>

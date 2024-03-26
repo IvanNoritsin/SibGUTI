@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+    <script src="logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header-work">
+        <div class="header-line">
+            <div class="logo">
+                <a href="index.html" class="main"><em class="logo-first">Электронный</em></a>
+                <a href="index.html" class="main2">журнал</a>
+            </div>
+
+            <div class="nav">
+                <a class="nav-item" href="download.html">ЗАГРУЗИТЬ ЖУРНАЛ</a>
+                <a class="nav-item" href="make.html">РЕДАКТИРОВАТЬ ЖУРНАЛ</a>
+                <a class="nav-item" href="stats.html">СТАТИСТИКА</a>
+                <a class="nav-item" href="help.html">ПОМОЩЬ</a>
+                <a class="nav-item" href="about.html">О РАЗРАБОТЧИКЕ</a>
+            </div>
+        </div>
+
+        <div class="header-top">
+            <div class="top-text">
+                Статистика
+            </div>
+            <hr color="black" size="5" width="1425">
+        </div>
+        <button id="statsRefresh" type="button">Обновить статистику</button>
+
+        <div id="group-math-stats"></div>
+        <div id="group-info-stats"></div>
+        <div id="group-phys-stats"></div>
+        <div id="group-lite-stats"></div>
+        <div id="group-musi-stats"></div>
+
+        <div id="all-math-stats"></div>
+        <div id="all-info-stats"></div>
+        <div id="all-phys-stats"></div>
+        <div id="all-lite-stats"></div>
+        <div id="all-musi-stats"></div>
+
+    </div>
+</body>
+</html>
